@@ -312,10 +312,10 @@ body {
 
         .active-slide {
             display: block;
-            -moz-animation: slideInLeft 1500ms, ease-in;
-            -webkit-animation: slideInLeft 1500ms, ease-in;
-            -o-nimation: slideInLeft 1500ms, ease-in;
-            animation: slideInLeft 1500ms, ease-in;
+            -moz-animation: slideInRight 1500ms, ease-in;
+            -webkit-animation: slideInRight 1500ms, ease-in;
+            -o-nimation: slideInRight 1500ms, ease-in;
+            animation: slideInRight 1500ms, ease-in;
         }
 
         &-content {
@@ -541,9 +541,9 @@ body {
     }
 }
 
-@-moz-keyframes slideInLeft {
+@-moz-keyframes slideInRight {
     from {
-        transform: translate3d(-100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         visibility: visible;
     }
     to {
@@ -551,9 +551,9 @@ body {
     }
 }
 
-@-webkit-keyframes slideInLeft {
+@-webkit-keyframes slideInRight {
     from {
-        transform: translate3d(-100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         visibility: visible;
     }
     to {
@@ -561,9 +561,9 @@ body {
     }
 }
 
-@keyframes slideInLeft {
+@keyframes slideInRight {
     from {
-        transform: translate3d(-100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
         visibility: visible;
     }
     to {
