@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotr</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img class="header__logo" src="assets/img/Logo.svg" alt="logo">
+            <div class="header__actions">
+                <span>Acceder</span>
+                <button class="header__btn btn">Regístrate</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__background"></div>
+        <div class="main__content">
+            <div class="main__info">
+                <span>Bono de primer</span>
+                <span>depósito hasta</span>
+                <span>40 000 MXN</span>
+            </div>
+            <div class="main__banner">
+                <span>Deposito minimo</span>
+                <span>500 MXN</span>
+            </div>
+        </div>
+        <div class="main__slider">
+            <div class="main__slider-slide slide-1 active-slide" data-slide-num="1">
+                <div class="container">
+                    <div class="main__slider-content">
+                        <div class="main__slider-text">
+                            <span>COMBOBOOST <br class="space"> hasta el 100%</span>
+                            <span>en apuestas combinadas</span>
+                        </div>
+                        <button class="main__slider-btn btn">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main__slider-slide slide-2" data-slide-num="2">
+                <div class="container">
+                    <div class="main__slider-content">
+                        <div class="main__slider-text">
+                            <span>Reembolso del 500%</span>
+                            <span>en apuestas deportivas</span>
+                        </div>
+                        <button class="main__slider-btn btn">Regístrate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ol class="main__slider-indicators">
+            <li class="active" data-slide-to="1"></li>
+            <li data-slide-to="2"></li>
+        </ol>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="assets/img/Logo.svg" alt="logo">
+            <div class="footer__actions">
+                <input class="footer__input" type="text" placeholder="Correo electronico">
+                <button class="btn footer__btn">Suscríbete</button>
+            </div>
+            <img class="footer__payments-big" src="assets/img/payment_systems_1.svg" alt="payment systems">
+            <img class="footer__payments-small" src="assets/img/payment_systems_2.svg" alt="payment systems">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

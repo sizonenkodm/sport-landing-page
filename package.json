@@ -1,0 +1,36 @@
+{
+  "name": "landing-page-sport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "autoprefixer": "latest",
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "browser-sync": "latest",
+    "core-js": "latest",
+    "gulp": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-postcss": "latest",
+    "gulp-sass": "latest",
+    "webpack": "latest",
+    "webpack-stream": "latest"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "sass": "^1.51.0"
+  }
+}
